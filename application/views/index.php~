@@ -1,0 +1,14 @@
+<div data-role="page" data-theme="b">
+	<div data-role="content">
+		<form method="post" action="#">
+			<label for="phoneNumber">手机号:</label>
+			<input type="text" name="phoneNumber" id="phoneNumber">
+			<div class="ui-grid-a">
+				<label for="verificationCode">验证码:</label>
+     				<div class="ui-block-a" style="border: 4px solid transparent;"><input type="text" name="verificationCode" id="verificationCode"></div>
+     				<div class="ui-block-b" style="border: 0px solid transparent;"><input type="button" value="获取验证码"></div>
+   			</div>
+			<input type="button" value="注册">
+		</form>
+	</div>
+</div>
